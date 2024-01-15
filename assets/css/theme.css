@@ -1100,6 +1100,7 @@ section {
 		right: 5%;
 		bottom: 5%;
 		padding: 20px;
+		top: 40%;
 	}
 }
 @media (max-width :768px) {
@@ -1157,7 +1158,7 @@ section {
 	margin-top: 20px;
 }
 .intro-caption .btn-default {
-	color: #BBB;
+	color: #000;
 }
 
 /* made with love */
@@ -2056,6 +2057,7 @@ section {
 	.isotope.gutter-2 .gallery-top-content,
 	.isotope.gutter-3 .gallery-top-content {
 		margin-left: 20px;
+		margin-top: 2%;
 	}
 	.isotope.gutter-2 .isotope-item,
 	.isotope.gutter-3 .isotope-item {
