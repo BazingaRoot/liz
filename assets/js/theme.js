@@ -18,6 +18,7 @@
 	$(window).on('load', function() { 
 		// Animate loader off screen
 		$("#preloader").fadeOut("slow");
+		$('.customHeading').hide()
 	});
 
 
@@ -376,6 +377,7 @@
 	// Note-2: "lazysizes" blugin is recommended: https://github.com/aFarkas/lazysizes
 	// =====================================================================================
 
+	$('.customHeading').hide()
 	// init Isotope
 	var $container = $('.isotope-items-wrap');
 	var $container2 = $('.isotope-items-wrap2');
