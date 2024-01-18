@@ -1159,6 +1159,7 @@ section {
 }
 .intro-caption .btn-default {
 	color: #000;
+	background-color: #fff;
 }
 
 /* made with love */
@@ -1835,7 +1836,7 @@ section {
 	margin-left: 25px;
 }
 .isotope.gutter-3 .gallery-top-content {
-	margin-left: 40px;
+	margin-left: 0px;
 }
 
 /* isotope filter */

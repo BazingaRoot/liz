@@ -9,6 +9,7 @@
 body, #body-content {
 	background-color: #131313;
 	color: #999;
+	overflow-x: hidden;
 }
 
 /* Page preloader */

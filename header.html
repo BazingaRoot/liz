@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 
-		<title>Vayu</title>
+		<title>Elizabeth</title>
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,20 +62,20 @@
 							<ul class="nav navbar-nav navbar-right">
 
 								
-								<li class=" active">
+								<li class="navitem active">
 									<a href="index.html">Home</a>
 								</li>
-								<li class="">
-									<a href="page-about-us.html">About Us</a>
+								<li class="navitem">
+									<a href="page-about-us.html">About</a>
 								</li>
-								<li class="dropdown dropdown-hover">
+								<li class="navitem">
 									<a href="portfolio.html">Portfolio</a>
 								</li>
-								<li class="">
-									<a href="blog.html">Blog</a>
+								<li class="navitem">
+									<a href="blog.html">Postcards</a>
 								</li>
-								<li class="">
-									<a href="page-contact.html">Contact Us</a>
+								<li class="navitem">
+									<a href="page-contact.html">Contact</a>
 								</li>
 							</ul> <!-- /.nav -->
 						</div> <!-- /.navbar-collapse -->
@@ -92,6 +92,12 @@
 		<!-- ====================
 		///// Scripts below /////
 		===================== -->
+		<script>
+			$('.navitem').on("click",function() {
+				$('.navitem').removeClass('active')
+				$(this).addClass('active')
+			})
+		</script>
 
 		<!-- Core JS -->
 		<script src="assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->
