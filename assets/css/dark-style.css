@@ -7,7 +7,7 @@
 ------------------------------------------------------------- */
 
 body, #body-content {
-	background-color: #131313;
+	/* background-color: #131313; */
 	color: #999;
 	overflow-x: hidden;
 }
@@ -201,7 +201,7 @@ body, #body-content {
 
 /* Content wrap */
 .content-wrap {
-   background-color: rgba(255, 255, 255);
+   background-color: rgb(255 255 255 / 0%)
 }
 #page-header-secion + #content-section .content-wrap:before {
 	content: none;
@@ -291,13 +291,14 @@ a.al-at-link:hover, a.al-at-link:focus {
 }
 
 .caption-outside .album-list-item .ali-title {
-	color: #000;
+	color: #817f7f;
 }
 .caption-outside .album-list-item:hover .ali-title {
-	color: #FFF;
+	color: #000;
+	/* font-weight: bold; */
 }
 .caption-outside.caption-gradient .album-list-item .ali-title:after {
-	border-bottom-color: #CECECE;
+	border-bottom-color: #000; 
 }
 .caption-outside .album-list-item .ali-meta {
 	color: #999;
@@ -597,18 +598,23 @@ hr.hr-short {
 
 /* Social icons */
 .social-icons ul > li > a {
-	font-size: 16px;
+	font-size: 50px;
 	color: #999;
 }
 .social-icons ul > li > a:hover {
 	color: #FFF;
 }
+/* 
+.contactUs .contactUsbox{
+	border: 1px solid;
+    border-radius: 1%;
+} */
 
 /* Forms */
 .form-control {
 	color: #999;
-	background-color: rgba(255, 255, 255, 0.06);
-	border-color: rgba(204, 204, 204, 0.09);
+	background-color: rgb(235 231 231 / 80%);
+	border-color: rgb(177 174 174)
 }
 .form-control:focus {
 	border-color: rgba(204, 204, 204, 0.17);
@@ -695,6 +701,10 @@ hr.hr-short {
 /* Footer */
 #footer {
 	color: #999;
+	clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
 }
 
 /* Scroll to top button */

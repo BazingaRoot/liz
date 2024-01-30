@@ -5235,6 +5235,12 @@ blockquote:before {
 	padding-right: 0;
 }
 
+#content-section.page-contact {
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 140px;
+}
+
 /* page-404 */
 .page-404 .content-wrap {
 	z-index: 9;
