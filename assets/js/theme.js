@@ -434,7 +434,7 @@
 
 	// if isotope exist add "overflow-y: scroll;" to body tag
 	$(".isotope").each(function(){
-	   $('body').css( 'overflow-y', 'scroll');
+	   $('body').css( 'overflow-y', 'hidden');
 	});
 
 
