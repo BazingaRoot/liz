@@ -16,8 +16,9 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,500,700,100' rel='stylesheet' type='text/css'>
-
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css"> 
 		
 		<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css"> 
@@ -39,7 +40,7 @@
 	</head>
 
 	<body id="body">
-		<header id="header" class="fixed-top">
+		<header id="header" class="fixed-top" >
 			<div class="header-inner">
 
 				<div id="logo">
@@ -62,20 +63,20 @@
 							<ul class="nav navbar-nav navbar-right">
 
 								
-								<li class="navitem active">
-									<a href="index.html">Home</a>
+								<li class="navitem link1">
+									<a  class="clickableNav" href="index.html">Home</a>
 								</li>
-								<li class="navitem">
-									<a href="page-about-us.html">About</a>
+								<li class="navitem link2">
+									<a class="clickableNav" href="page-about-us.html">About</a>
 								</li>
-								<li class="navitem">
-									<a href="portfolio.html">Portfolio</a>
+								<li class="navitem link3">
+									<a class="clickableNav" href="portfolio.html">Portfolio</a>
 								</li>
-								<li class="navitem">
-									<a href="blog.html">Postcards</a>
+								<li class="navitem link4">
+									<a class="clickableNav" href="blog.html">Postcards</a>
 								</li>
-								<li class="navitem">
-									<a href="page-contact.html">Contact</a>
+								<li class="navitem link5">
+									<a class="clickableNav" href="page-contact.html">Contact</a>
 								</li>
 							</ul> <!-- /.nav -->
 						</div> <!-- /.navbar-collapse -->
@@ -92,12 +93,7 @@
 		<!-- ====================
 		///// Scripts below /////
 		===================== -->
-		<script>
-			$('.navitem').on("click",function() {
-				$('.navitem').removeClass('active')
-				$(this).addClass('active')
-			})
-		</script>
+		
 
 		<!-- Core JS -->
 		<script src="assets/vendor/jquery/jquery.min.js"></script> <!-- jquery JS (https://jquery.com) -->

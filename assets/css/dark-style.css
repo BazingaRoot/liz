@@ -1,10 +1,3 @@
-/* -------------------------------------------------------------
-* Template dark stylesheet
-* 
-* Template:		Agatha -	Photography Portfolio Website Template
-* Author:		Themetorium
-* URL:			https://themetorium.net
-------------------------------------------------------------- */
 
 body, #body-content {
 	/* background-color: #131313; */
@@ -45,7 +38,9 @@ body, #body-content {
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:focus, 
 .navbar-default .navbar-nav > .open > a:hover {
-	color: #999;
+	color: #f00;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 /* Navbar border bottom */

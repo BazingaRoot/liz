@@ -1,12 +1,3 @@
-/* =================================================================
-* Template JS
-* 
-* Template:    Agatha -	Photography Portfolio Website Template
-* Author:      Themetorium
-* URL:         https://themetorium.net
-*
-================================================================= */
-
 
 'use strict';
 
@@ -20,6 +11,39 @@
 		$("#preloader").fadeOut("slow");
 		$('.customHeading').hide()
 	});
+
+
+			$(document).ready(function() {
+				$('.navitem').removeClass('active')
+			$('.clickableNav').on("click", function(e) {
+				// e.preventDefault();
+				$('.navitem').removeClass('active')
+				// $(this).parent().addClass('active')
+			})
+			console.log(window.location.pathname)
+
+			switch(window.location.pathname) {
+				case "/index.html":
+					$('.link1').addClass('active')
+				break;
+				case "/page-about-us.html":
+					$('.link2').addClass('active')
+				break;
+				case "/portfolio.html":
+					$('.link3').addClass('active')
+				break;
+				case "/blog.html":
+					$('.link4').addClass('active')
+				break;
+				case "/page-contact.html":
+					$('.link5').addClass('active')
+				break;
+				default:
+					$('.link1').addClass('active')
+			}
+     }); 
+			
+			 
 
 
 
@@ -357,16 +381,16 @@
 	// Source: http://miromannino.github.io/Justified-Gallery/
 	// =========================================================
 
-	$(".justified-gallery").justifiedGallery({
-		rowHeight: 360, // The preferred height of rows in pixel.
-		maxRowHeight:  '200%', // A number (e.g 200) which specifies the maximum row height in pixel. A negative value to don't have limits. Alternatively, a string which specifies a percentage (e.g. 200% means that the row height can't exceed 2 * rowHeight).
-		margins: 6, // Decide the margins between the images.
-		border:  0, // Decide the border size of the gallery. With a negative value the border will be the same as the margins.
-		fixedHeight: false, // Decide if you want to have a fixed height (rowHeight).
-		randomize: false, // Automatically randomize or not the order of photos.
-		captions: false, // Must be "false"!!!
-		lastRow: 'nojustify' // 'justify', 'nojustify' or 'hide'.
-	});
+	// $(".justified-gallery").justifiedGallery({
+	// 	rowHeight: 360, // The preferred height of rows in pixel.
+	// 	maxRowHeight:  '200%', // A number (e.g 200) which specifies the maximum row height in pixel. A negative value to don't have limits. Alternatively, a string which specifies a percentage (e.g. 200% means that the row height can't exceed 2 * rowHeight).
+	// 	margins: 6, // Decide the margins between the images.
+	// 	border:  0, // Decide the border size of the gallery. With a negative value the border will be the same as the margins.
+	// 	fixedHeight: false, // Decide if you want to have a fixed height (rowHeight).
+	// 	randomize: false, // Automatically randomize or not the order of photos.
+	// 	captions: false, // Must be "false"!!!
+	// 	lastRow: 'nojustify' // 'justify', 'nojustify' or 'hide'.
+	// });
 
 
 
