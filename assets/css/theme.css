@@ -369,7 +369,7 @@ section {
 	padding-bottom: 25px;
 	line-height: 19px;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 600;
   font-style: normal;
 	color: #888;
@@ -1878,7 +1878,7 @@ section {
 	margin: 2px 8px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 600;
   font-style: normal;
 	color: #888;
@@ -4717,12 +4717,12 @@ body.modal-open {
 
 /* Button styles */
 .btn-default {
-	color: #000;
-	background-color: rgba(189, 189, 189, 0.25);
+	color: #fff;
+	background-color: rgb(20 20 20 / 45%);
 	border-color: transparent;
 }
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:active:hover, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default {
-	color: #333;
+	color: #000;
 	background-color: #E8E7E7;
 	border-color: transparent;
 }
@@ -5232,6 +5232,7 @@ blockquote:before {
 	padding-left: 0;
 	padding-right: 0;
 	margin-top: 140px;
+	height: 86vh;
 }
 
 /* page-404 */
@@ -5734,7 +5735,9 @@ label {
 #footer .copyright {
 	margin-top: 8px;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 16px;
+	font-weight: 600;
+    color: #000;
 }
 
 /* Footer social icons */

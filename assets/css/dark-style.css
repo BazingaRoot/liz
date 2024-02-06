@@ -584,7 +584,7 @@ hr.hr-short {
 .btn-dark-bordered,
 .btn-default,
 .btn-default-bordered {
-	color: #999;
+	color: #fff;
 }
 .btn-dark {
 	background-color: #212121;
@@ -699,7 +699,7 @@ hr.hr-short {
 	clear: both;
     position: relative;
     height: 200px;
-    margin-top: -200px;
+    margin-top: -100px;
 }
 
 /* Scroll to top button */
