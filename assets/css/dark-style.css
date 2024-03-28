@@ -38,7 +38,7 @@ body, #body-content {
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:focus, 
 .navbar-default .navbar-nav > .open > a:hover {
-	color: #f00;
+	color: #000;
 	font-weight: bold;
 	text-decoration: underline;
 }
@@ -605,11 +605,20 @@ hr.hr-short {
     border-radius: 1%;
 } */
 
+.labelContact {
+	margin-top: 10px;
+	font-size: 22px;
+}
+
+.form-group input {
+	border-bottom: 1px solid;
+	border-radius: 0px;
+}
 /* Forms */
 .form-control {
-	color: #999;
-	background-color: rgb(235 231 231 / 80%);
-	border-color: rgb(177 174 174)
+	color: #000;
+	background-color: transparent;
+	border-color:transparent
 }
 .form-control:focus {
 	border-color: rgba(204, 204, 204, 0.17);

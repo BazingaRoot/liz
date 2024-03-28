@@ -66,7 +66,7 @@
 			});
 		</script>
 
-		<div id="body-content" class="page-header-image parallax bg-image" style="background-image: url(assets/img/album-list/masonry/b14.jpg); background-position: 50% 50%;">
+		<div id="body-content" class="page-header-image parallax bg-image" >
 
 
 
@@ -79,99 +79,110 @@
 				<div class="container contactUs">
 					<div class="row">
 						<div class="col-md-12 contactUsbox">
-
-							<!-- Begin content wrap -->
 							<div class="content-wrap min-height-600">
-								<div class="row margin-bottom-10">
-									<div class="col-lg-4">
-
-										<!-- <address>
-											<i class="fas fa-home"></i> <strong>Telio, Inc.</strong><br>
-											1355 Market Street, Suite 900 <br>
-											San Francisco, CA 94103 <br>
-											<i class="fas fa-phone"></i> (123) 456-7890 <br>
-											<i class="fas fa-envelope"></i> <a href="mailto:#">company@email.com</a>
-										</address> -->
-
-										<div class="social-icons">
-											<ul>
-												<!-- <li><a target="_blank" href="https://www.facebook.com/" title="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a></li>
-												<li><a target="_blank" href="https://twitter.com/" title="Follow us on Twitter"><i class="fab fa-twitter"></i></a></li>
-												<li><a target="_blank" href="https://www.pinterest.com/" title="Follow us on Pinterest"><i class="fab fa-pinterest-p"></i></a></li> -->
-												<li><a target="_blank" href="https://www.instagram.com/elmariettaa/" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a></li>
-											</ul>
-										</div>
-
-									</div> <!-- /.col -->
-
+								<div class="row margin-bottom-10" style="color: #000;">
+									<div class="col-md-4">
+										<h4 style="font-weight: 600; font-size: 30px;    margin: 37% 0px;">get in touch</h4>
+									</div>
 									<div class="col-md-8">
-
-										<h4 style="color: #fff;">Paint your story with us</h4>
-										<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-										consequat.</p> -->
-
-									</div> <!-- /.col -->
-								</div> <!-- /.row -->
-
-								<div class="row">
-									<div class="col-md-12">
-
-										<!-- Begin contact form 
-										========================= -->
 										<form id="contact-form">
-
-											<!-- Begin hidden required fields (https://github.com/agragregra/uniMail) -->
-											<input type="hidden" name="project_name" value="yourwebsiteaddress.com"> <!-- Change value to your site name -->
-											<input type="hidden" name="admin_email" value="your@email.com"> <!-- Change value to your email address (where a message will be sent) -->
-											<input type="hidden" name="form_subject" value="Message from yourwebsiteaddress.com"> <!-- Change value to your own message subject -->
-											<!-- End Hidden Required Fields -->
-
+											<input type="hidden" name="project_name" value="yourwebsiteaddress.com"> 
+											<input type="hidden" name="admin_email" value="your@email.com"> 
+											<input type="hidden" name="form_subject" value="Message from yourwebsiteaddress.com"> 
 											<div class="row">
-												<div class="col-lg-4">
+												<div class="col-lg-12">
+													<div class="row">
+														<div class="col-lg-3 labelContact">
+															<p>Full Name</p>
+														</div>
+														<div class="col-lg-8">
+															<div class="form-group">															
+																<input type="text" class="form-control" id="name" name="name"  required>
+															</div>
+														</div>
+													</div>
+													
+												</div>
+												<div class="col-lg-12">
+													<div class="row">
+														<div class="col-lg-3 labelContact">
+															<p>Email</p>
+														</div>
+														<div class="col-lg-8">
 													<div class="form-group">
-														<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+				
+														<input type="email" class="form-control" id="email" name="email" required>
+													</div>
+													</div>
+													</div>
+
+
+												</div>
+												<div class="col-lg-12">
+													<div class="row">
+														<div class="col-lg-3 labelContact">
+															<p>Occasion</p>
+														</div>
+														<div class="col-lg-8">
+													<div class="form-group">
+														<input type="text" class="form-control" id="occasion" name="occasion" required>
+													</div>
+													</div>
+													</div>
+
+
+												</div>
+												<div class="col-lg-12">
+													<div class="row">
+														<div class="col-lg-3 labelContact">
+															<p>Date</p>
+														</div>
+														<div class="col-lg-8">
+													<div class="form-group">
+														<input type="text" class="form-control" id="date" name="date"  required>
+													</div>
+													</div>
+													</div>
+
+												</div>
+												<div class="col-lg-12">
+													<div class="row">
+														<div class="col-lg-3 labelContact">
+															<p>Venue</p>
+														</div>
+														<div class="col-lg-8">
+													<div class="form-group">
+														<input type="text" class="form-control" id="venue" name="venue" required>
 													</div>
 												</div>
-												<div class="col-lg-4">
-													<div class="form-group">
-														<input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-													</div>
 												</div>
-												<div class="col-lg-4">
-													<div class="form-group">
-														<input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" required>
-													</div>
 												</div>
 											</div>
-											<div class="row">
+											<!-- <div class="row">
 												<div class="col-lg-12">
 													<div class="form-group">
 														<textarea class="form-control" id="message" name="message" rows="8" placeholder="Your Message (text only)" required></textarea>
 													</div>
 												</div>
-											</div>
-											<div class="row">
+											</div> -->
+											<div class="row" style="margin-top: 30px;">
 												<div class="col-lg-12">
 													<button type="submit" class="btn btn-primary btn-rounded-5x btn-block">Send Message</button>
 												</div>
 											</div>
 										</form>
-										<!-- End contact form -->
+										
 
-									</div> <!-- /.col-->
-								</div> <!-- /.row -->
+									</div> 
+								</div> 
 							</div>
-							<!-- End content wrap -->
+							
 
-						</div> <!-- /.col -->
-					</div> <!-- /.row -->
-				</div> <!-- /.container -->
-
-
-
+						</div> 
+					</div> 
+				</div> 
 			</section>
-			<!-- End content section -->
+			
 
 
 			<div id="footer-container"></div>
@@ -183,8 +194,9 @@
 					var formData = {
 						name: document.getElementById('name').value,
 						email: document.getElementById('email').value,
-						phone: document.getElementById('phone').value,
-						message: document.getElementById('message').value
+						occasion: document.getElementById('occasion').value,
+						date: document.getElementById('date').value,
+						venue: document.getElementById('venue').value
 					};
 			
 					// Send email using EmailJS
